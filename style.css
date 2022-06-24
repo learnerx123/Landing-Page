@@ -20,9 +20,10 @@ padding: 0px;
 }
 .headerRow ul {
     display: flex;
-    justify-content: space-between;
+    list-style: none;
+    /* justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding: 0; */
 }
 
 .main1 img {
