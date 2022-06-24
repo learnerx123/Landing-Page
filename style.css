@@ -1,11 +1,31 @@
 body {
 display: flex;
 flex-flow: column;
+margin: 0px;
+padding: 0px;
 }
 
 .main1, .footer {
     background-color: #1F2937;
     /* display: flex; */
+}
+
+.main1{
+    display: flex;
+    flex-flow: column;
+}
+.headerRow {
+    display: flex;
+    justify-content: space-between;
+}
+.headerRow ul {
+    display: flex;
+}
+
+.main1 img {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
 }
 
 .heroMainText {
@@ -14,12 +34,30 @@ flex-flow: column;
     color: #f9faf8;
 }
 
-.heroSeconderyText {
+.heroSeconderyText, .headerLinkText a {
     font-size: 24px;
     color: #e5e7eb;
+    text-decoration: none;
 }
+
+
 .header-logo a{
     font-size: 24px;
     color: #f9faf8;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+/* use width property 
+.main1 .imgM1C1 {
+    display: inline-block;
+}
+
+img{
+display: inline-block;
+} */
