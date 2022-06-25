@@ -9,6 +9,11 @@ padding: 0px;
     background-color: #1F2937;
     /* display: flex; */
 }
+.left-link {
+    display: flex;
+    margin-left: 325px;
+    /* justify-content: end; */
+}
 
 .main1{
     display: flex;
@@ -17,10 +22,13 @@ padding: 0px;
 .headerRow {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
-.headerRow ul {
+.headerLinkText {
     display: flex;
     list-style: none;
+    gap: 20px;
     /* justify-content: space-between;
     margin: 0;
     padding: 0; */
@@ -39,7 +47,7 @@ padding: 0px;
 }
 
 .heroSeconderyText, .headerLinkText a {
-    font-size: 24px;
+    font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
