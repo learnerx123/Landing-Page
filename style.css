@@ -11,7 +11,9 @@ flex-flow: column;
 margin: 0px;
 padding: 0px;
 }
-
+.main1 {
+    height: 335px;
+}
 .main1, .footer {
     background-color: #1F2937;
     /* display: flex; */
@@ -74,12 +76,46 @@ padding: 0px;
 /* container1M1 */
 .container1M1 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* flex-flow: column; */
-    /* gap: 30px; */
+    gap: 30px;
+    /* padding: 20px; */
+    flex: 1;
+
 }
 
+.container1-1 {
+    margin-left: 250px;
+    /* padding: 40px; */
+    /* display: flex; */
+    /* flex: 1; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* height: 150px;
+    width: 600px; */
+    margin-left: 315px;
+    width: 350px;
+
+}
+.heroMainText {
+    width: 350px;
+}
+.container1-1 button {
+    /* font-family: roboto; */
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    font-size: medium;
+    color: #f9faf8;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    padding: 6PX;
+}
 
 
 
