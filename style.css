@@ -12,7 +12,7 @@ margin: 0px;
 padding: 0px;
 }
 .main1 {
-    height: 335px;
+    height: 460px;
 }
 .main1, .footer {
     background-color: #1F2937;
@@ -21,7 +21,7 @@ padding: 0px;
 }
 .left-link {
     display: flex;
-    margin-left: 325px;
+    /* margin-left: 325px; */
     /* justify-content: end; */
 }
 
@@ -34,9 +34,12 @@ padding: 0px;
 }
 .headerRow {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    /* padding: 20px; */
+    padding: 0px 80px;
+    padding-left: 150px;
+    /* gap: 634px; */
+    justify-content: space-between;
+    /* padding: 20px;*/
     
 }
 .right-link ul {
@@ -76,27 +79,28 @@ padding: 0px;
 /* container1M1 */
 .container1M1 {
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
     /* flex-flow: column; */
-    gap: 30px;
+    gap: 50px;
     /* padding: 20px; */
-    flex: 1;
+    padding: 0px 80px;
+    padding-left: 105px;
+    padding-right: 300px;
+    /* flex: 1;*/
 
 }
 
 .container1-1 {
-    margin-left: 250px;
-    /* padding: 40px; */
+    /* margin-left: 250px;  */
+    padding: 40px;
     /* display: flex; */
     /* flex: 1; */
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    /* height: 150px;
-    width: 600px; */
-    margin-left: 315px;
-    width: 350px;
+    /* flex-wrap: wrap; */
+    /* align-content: flex-end; */
+    /* margin-left: 150px; */
+    width: 450px;
 
 }
 .heroMainText {
@@ -117,7 +121,12 @@ padding: 0px;
     padding: 6PX;
 }
 
-
+.container1M1 img {
+    display: inline-block;
+    width: 500px;
+    height: 220px;
+    background-color: #82868cb8;
+}
 
 
 
