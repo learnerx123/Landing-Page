@@ -1,3 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    /* font-family: roboto ; */
+    font-family: roboto, Tahoma, Geneva, Verdana, sans-serif;
+}
 body {
 display: flex;
 flex-flow: column;
@@ -8,6 +15,7 @@ padding: 0px;
 .main1, .footer {
     background-color: #1F2937;
     /* display: flex; */
+    gap: 55px;
 }
 .left-link {
     display: flex;
@@ -15,6 +23,9 @@ padding: 0px;
     /* justify-content: end; */
 }
 
+.right-link {
+    margin-right: 20px;
+}
 .main1{
     display: flex;
     flex-flow: column;
@@ -23,9 +34,10 @@ padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding: 20px; */
     
 }
-.headerLinkText {
+.right-link ul {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -57,7 +69,17 @@ padding: 0px;
     font-size: 24px;
     color: #f9faf8;
     text-decoration: none;
+    font-weight: bolder;
 }
+/* container1M1 */
+.container1M1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: column; */
+    /* gap: 30px; */
+}
+
 
 
 
