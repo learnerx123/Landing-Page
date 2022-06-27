@@ -15,6 +15,7 @@ body {
 
 .main1 {
     height: 460px;
+    flex: 1;
 }
 
 .main1,
@@ -140,9 +141,10 @@ body {
 
 .container1M1 img {
     display: inline-block;
-    width: 600px;
+    min-width: 600px;
     height: 300px;
     background-color: #82868cb8;
+    flex: 1;
 }
 
 /* main2 start */
@@ -227,6 +229,22 @@ width: 120px;
     font-weight: 600;
     font-size: 22px;
 }
+
+
+/* main4 start */
+
+.main4 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex: auto;
+    height: 300px;
+}
+
+.main4 .container1M4 {
+    
+}
+
 /* use width property 
 .main1 .imgM1C1 {
     display: inline-block;
