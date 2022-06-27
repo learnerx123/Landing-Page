@@ -235,14 +235,26 @@ width: 120px;
 
 .main4 {
     display: flex;
-    align-content: center;
-    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
     flex: auto;
     height: 300px;
+    justify-content: center;
 }
 
 .main4 .container1M4 {
-    
+    display: flex;
+    /* flex: auto; */
+    width: 1000px;
+    height: 137px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid #345dec;
+    border-radius: 8px;
+    background-color: #0e5bd5;
+    justify-content: space-around;
+
 }
 
 /* use width property 
