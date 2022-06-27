@@ -5,20 +5,25 @@
     /* font-family: roboto ; */
     font-family: roboto, Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
-display: flex;
-flex-flow: column;
-margin: 0px;
-padding: 0px;
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+    padding: 0px;
 }
+
 .main1 {
     height: 460px;
 }
-.main1, .footer {
+
+.main1,
+.footer {
     background-color: #1F2937;
     /* display: flex; */
     gap: 55px;
 }
+
 .left-link {
     display: flex;
     /* margin-left: 325px; */
@@ -28,10 +33,13 @@ padding: 0px;
 .right-link {
     margin-right: 20px;
 }
-.main1{
+
+.main1,
+.main2 {
     display: flex;
     flex-flow: column;
 }
+
 .headerRow {
     display: flex;
     align-items: center;
@@ -41,8 +49,9 @@ padding: 0px;
     /* gap: 634px; */
     justify-content: space-between;
     /* padding: 20px;*/
-    
+
 }
+
 .right-link ul {
     display: flex;
     list-style: none;
@@ -64,19 +73,21 @@ padding: 0px;
     color: #f9faf8;
 }
 
-.heroSeconderyText, .headerLinkText a {
+.heroSeconderyText,
+.headerLinkText a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
 
 
-.header-logo a{
+.header-logo a {
     font-size: 24px;
     color: #f9faf8;
     text-decoration: none;
     font-weight: bolder;
 }
+
 /* container1M1 */
 .container1M1 {
     display: flex;
@@ -106,9 +117,11 @@ padding: 0px;
     width: 450px;
 
 }
+
 .heroMainText {
     width: 350px;
 }
+
 .container1-1 button {
     /* font-family: roboto; */
     font-weight: 600;
@@ -132,7 +145,51 @@ padding: 0px;
 }
 
 /* main2 start */
+.main2 {
+    height: 400px;
 
+}
+
+.randInfoM2 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+        /* flex: 1; */
+}
+
+.randInfo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.container1M2 {
+    display: flex;
+    /* background-color: #bfc5d0; */
+    justify-content: center;
+    /* flex: 1; */
+    /* height: 500px; */
+
+}
+
+.infoPanel {
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.infoPanel .textM2 {
+flex: 1;
+width: 120px;
+}
+.infoPanel img {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
 
 
 /* use width property 
