@@ -65,7 +65,8 @@ body {
 .main1 img {
     display: inline-block;
     width: 50px;
-    height: 70px;
+    /* height: 70px; */
+    height: auto;
 }
 
 .heroMainText {
@@ -79,7 +80,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -141,10 +142,12 @@ body {
 
 .container1M1 img {
     display: inline-block;
-    min-width: 600px;
-    height: 300px;
+    /* min-width: 600px; */
+    width: 600px;
+    height: 600px;
     background-color: #82868cb8;
     flex: 1;
+    border-radius: 10px;
 }
 
 /* main2 start */
@@ -242,9 +245,9 @@ width: 120px;
     justify-content: center;
 }
 
-.main4 .container1M4 {
+/* .main4 .container1M4 {
     display: flex;
-    /* flex: auto; */
+    /* flex: auto; 
     width: 1000px;
     height: 137px;
     align-items: center;
@@ -252,11 +255,67 @@ width: 120px;
     flex-wrap: wrap;
     border: 3px solid #345dec;
     border-radius: 8px;
-    background-color: #0e5bd5;
+    background-color: #3882f6;
     justify-content: space-around;
 
+} */
+
+.main4 .container1M4 {
+    background-color: #3882f6;
+    font-family: roboto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    font-size: medium;
+    color: #f9faf8;
+    border-radius: 10px;
+    width: 1000px;
+    height: 121px;
+    padding: 6PX;
+    border: 1px solid #f9faf8;
 }
 
+
+.main4 .container1M4 .textS-L{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main4 .container1M4 .textS-M{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+.main4 .container1M4 button {
+    font-family: roboto; 
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    font-size: medium;
+    color: #f9faf8;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    padding: 6PX;
+    border: 1px solid #f9faf8;
+}
+
+.footer {
+    height: 70px;
+    flex-shrink: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: lighter;
+    flex-wrap: wrap;
+}
 /* use width property 
 .main1 .imgM1C1 {
     display: inline-block;
